@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+}
+form {
+  background: darkblue;
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+  top-margin: 100px;
+}
+.header {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 0.25rem
+  border-style: solid;
+  border: 3px solid darkblue;
+}
+.form-control {
+  display: block;
+  width: 90%;
+  height: 2.375rem;
+  padding: 0.4rem 1rem;
+  background-color: white;
+  background-clip: padding-box;
+  border: 1px solid gray;
+  border-radius: 0.25rem;
+}
