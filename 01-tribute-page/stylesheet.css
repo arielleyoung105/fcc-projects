@@ -1,0 +1,49 @@
+main {
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.75;
+  text-align: center;
+  color: black;
+  margin: 0;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  background: lightgray;
+}
+figure {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  background-color: white;
+}
+figcaption {
+  background-color: white;
+  display: block;
+}
+#img-caption {
+  margin: 15px 0 15px 0;
+}
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
