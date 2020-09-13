@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey Form</title>
+</head>
+<body>
+<div class="container">
+  <header class="header">
+  <h1 id="title">Lunch Menu Selection</h1>
+  <p id="description">Hey, whaddya wanna eat?</p>
+  </header>
+  <form id="survey-form">
+  <div class="form-group">
+   <label id="name-label" for="name">Name:</label>
+   <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+  </div>
+  <div class="form-group">
+   <label id="email-label" for="email">Email:</label>
+   <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+  </div>
+  <div class="form-group">
+   <label id="number-label" for="number">Number of customers:</label>
+  <input type="number" name="number" id="number" class="form-control" placeholder="Number" min="1" max="100">
+ </div>
+ <div class="form-group">
+   <p>Choose from the following menu:</p>
+   <select id="dropdown" name="role" class="form-control" required>
+     <option disabled selected value value="select">Select food option</option>
+     <option value="hamburger">Hamburger</option>
+     <option value="chicken">Chicken</option>
+     <option value="salad">Salad</option>
+   </select>
+ </div>
+ <div class="form-group">
+   <p>How hungry are you?</p>
+   <label for="famished">
+     <input id="famished" value="famished" type="radio" name="hungry">Famished</label>
+   <label for="meh">
+     <input id="meh" value="meh" type="radio" name="hungry">Meh</label>
+   <label for="not">
+     <input id="not" value="not" type="radio" name="hungry">Not hungry</label>
+ </div>
+ <div class="form-group">
+   <p>Form of payment:</p>
+   <label for="card">
+     <input id="card" value="card" type="checkbox" name="payment">Card</label>
+   <label for="payment">
+     <input id="cash" value="cash" type="checkbox" name="payment">Cash</label>
+ </div>
+ <div class="form-group">
+   <p>Comments:</p>
+   <textarea id="comments" value="comments" type="textarea" name="comments"></textarea>
+ </div>
+    <div class="form-group">
+      <button id="submit" type="submit">Submit</button>
+    </div>
+</form>
+</div>
+</body>
+</html>
