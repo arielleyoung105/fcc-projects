@@ -1,0 +1,21 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav-link {
+  display: inline;
+  padding: 8px;
+  background-color: #333;
+  color: white;
+}
+
+@media only screen and (min-width: 1200px) {
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+}
